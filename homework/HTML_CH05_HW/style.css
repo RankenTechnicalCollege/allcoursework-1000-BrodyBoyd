@@ -11,6 +11,7 @@ div > header{
   border-radius: 10px 20px 0 20px;
   box-shadow: 3px 3px 4px 4px red;
   text-align: center;
+  margin-bottom: 3%;
 }
 
 .bebas-neue-regular {
@@ -66,7 +67,7 @@ h3 {
 
 h4 {
   padding: auto;
-  font-size: large
+  font-size: x-large;
 }
 
 .center {
@@ -81,4 +82,14 @@ img {
 
 h2 {
   border-top: 6px solid black;
+  font-size: xx-large;
+}
+
+a:hover {
+ color: red;
+ margin: auto;
+}
+
+a {
+  padding: 1%;
 }
