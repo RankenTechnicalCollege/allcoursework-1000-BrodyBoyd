@@ -2,6 +2,10 @@ body {
   background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(122, 122, 122));
 }
 
+div {
+  margin: auto;
+  width: 80%;
+}
 div > header{
   margin: auto;
   width: 25%;
