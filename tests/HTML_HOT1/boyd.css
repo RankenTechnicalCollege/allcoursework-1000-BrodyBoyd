@@ -1,0 +1,18 @@
+div {
+  margin: auto;
+  width: 90%;
+}
+
+body {
+  color: #4452c9;
+  background-color: #fff7c3;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+a:hover {
+  color:red;
+}
