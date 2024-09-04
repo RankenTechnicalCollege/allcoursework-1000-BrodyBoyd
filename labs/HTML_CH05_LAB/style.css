@@ -1,0 +1,67 @@
+header{
+  margin: auto;
+  width: 25%;
+  border: 3px solid green;
+  padding: 10px;
+  border-style: double;
+  border-radius: 10px 20px 0 20px;
+  box-shadow: 3px 3px 4px 4px red;
+  text-align: center;
+  margin-bottom: 3%;
+  background-image: linear-gradient(to bottom right, rgb(172, 225, 255), rgb(45, 255, 140));
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: fantasy;
+  text-align: center;
+}
+
+h3 {
+  font-family: monospace;
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  font-family: cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  font-family: serif;
+  font-size: 1.2em;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+li {
+  font-weight: bold;
+}
+
+div {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(255, 213, 135);
+}
+
+body {
+  background-color: black;
+}

@@ -1,0 +1,33 @@
+footer {
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+  padding: 10px;
+  border: dashed 10px darkblue;
+}
+
+#notice {
+  width: 80%;
+  text-align: center;
+}
+
+.headline {
+  text-decoration: underline dotted red;
+}
+
+h1 {
+  text-shadow: 2px 2px;
+  background-color: rgba(255, 0, 132, 0.5);
+  font-family: sans-serif;
+  font-size: 4em;
+}
+
+#feature {
+  font-size: small;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  width: 80%;
+  text-shadow: 2px 2px;
+  
+}
