@@ -1,0 +1,210 @@
+
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font: 12pt arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html ,body{
+  margin:0;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+}
+
+header h1 {
+  flex: 1;
+  font-size: xxx-large;
+}
+
+header h2 {
+  
+}
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  border: .1em solid;
+  background-color: whitesmoke;
+  color: navy;
+}
+
+.main {
+  display:flex;
+}
+
+.c1 {
+  width: 30%;
+}
+
+.c1 img {
+  width: 100%;
+  
+}
+
+.c2 {
+  width: 70%;
+  flex-direction: column;
+  display: flex;
+}
+
+.home h2 {
+  padding: .5em;
+  font-size: 3.4em;
+}
+
+.education {
+  justify-content: flex-end;
+}
+
+.education h2{
+  padding: .2em;
+  justify-content: flex-end;
+}
+
+.edutext {
+  justify-content: flex-start;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.ranken {
+  justify-content: flex-start;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: lightgrey;
+  padding: 1em;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: flex-end;
+  background-color: lightgrey;
+  padding: 1em;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between; /* Optional: Adjust space between items */
+  align-items: center; /* Optional: Vertically align items */
+  gap: 20px; /* Space between the items */
+}
+
+.education {
+  display: flex;
+  align-items: flex-end; /* Align items to the start of the cross axis (vertical alignment) */
+}
+
+.education h2 {
+  margin-right: 20px; /* Space between "Education" and the other text */
+}
+
+.ranken  {
+  display: flex;
+  align-items: flex-start; /* Align items to the start of the cross axis (vertical alignment) */
+}
+
+.ranken img {
+  margin-right: 20px; /* Space between "Education" and the other text */
+}
+
+.link {
+  flex:.4;
+}
+
+a:hover {
+  color: red;
+}
+
+.headertext h1, .headertext h2 {
+  display: flex;
+  margin: 0; /* Remove default margins if needed */
+  padding: 1em; /* Remove default padding if needed */
+  justify-content: flex-start;
+}
+
+.headertext {
+  text-align: center; /* Center-align text if desired */
+}
+
+@media only screen and (max-width:599px) {
+  .header {
+    flex-wrap: wrap;
+  }
+  .navbar {
+    order:0;
+   }
+   .header {
+    order: 1;
+   }
+ 
+  .body {
+    display: block;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .c1 {
+    width: 100%;
+  }
+
+  .c2 {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width:600px) {
+ 
+ 
+  .header {
+    flex-wrap: wrap;
+  }
+  .header-searchform {
+    order: 1;
+    margin: 0;
+  }
+  .header-logo {
+    width:50px;
+    height: 50px;
+  }
+  .header-text {
+    flex-grow: 1;
+  }
+  .header-account,
+  .header-cart {
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-menu {
+    flex-direction: column;
+  }
+  .navbar-item .navbar-menu {
+    position: relative;
+    top: 0;
+  }
+  .body {
+    display: block;
+  }
+}
