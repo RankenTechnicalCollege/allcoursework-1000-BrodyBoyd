@@ -153,6 +153,9 @@ a:hover {
   .navbar {
     order:0;
    }
+   nav {
+    flex-wrap: wrap
+   }
    .header {
     order: 1;
    }
@@ -171,6 +174,21 @@ a:hover {
 
   .c2 {
     width: 100%;
+  }
+  .row {
+    display: table-column;
+    justify-content: space-between; /* Optional: Adjust space between items */
+    align-items: center; /* Optional: Vertically align items */
+    gap: 20px; /* Space between the items */
+  }
+  .ranken  {
+    display: flex;
+    align-items: flex-start; /* Align items to the start of the cross axis (vertical alignment) */
+    flex-direction: column;
+  }
+  
+  .ranken img {
+    margin-right: 20px; /* Space between "Education" and the other text */
   }
 
 }
