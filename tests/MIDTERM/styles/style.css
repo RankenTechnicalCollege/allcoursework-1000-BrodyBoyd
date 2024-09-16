@@ -145,6 +145,7 @@ header h1 {
 
 .social {
   width: 100px;
+  flex-shrink: 1;
 }
 
 footer {
@@ -173,5 +174,13 @@ footer {
   display: flex;
   flex-direction: column;
 }
+.social {
+  width: 60px;
+}
 
+.middle {
+  justify-content: center;
+  text-align: center;
+  width: 33%;
+}
 }
