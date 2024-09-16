@@ -1,4 +1,3 @@
-
 * {
   padding: .34em;
   margin: auto;
@@ -88,67 +87,28 @@ header h1 {
   background-color: rgb(94, 131, 255);
 }
 
-
-
-.jumbotron {
-  width: 100%;
-  height: 50vh;
-  background-image: url("images/ct_care_bags.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-  font-size:2em ;
-  color: white;
-  padding-top: 10em;
-  text-shadow: 2px 2px 4px #000000;
-  border: solid black;
-}
-
-.links {
+.main {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 0;
-  list-style-type: none;
-  margin: 0;
-  position: fill;
-  font-size: 1.5em;
-  background-color: gray;
-  font-size: 2em;
-  border: solid black;
-}
-
-.more {
-  height: 50vh;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-.dono {
-  height: 50vh;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-.contact {
-  height: 50vh;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-.projects {
   text-align: center;
-  padding-top: 3em;
-  font-size: 1.5em;
-  padding-bottom: 3em;
-  border: solid black;
+  justify-content: center;
+  font-size: 2em;text-decoration: underline navy;
+  border: solid black .1em;
   background-color: white;
 }
 
-.projects p {
-  width: 50%;
+.phonepic {
+  width: 25px;
+  vertical-align:middle
+}
+
+.emailpic {
+  width: 25px;
+  vertical-align:middle
+}
+
+.location {
+  width: 25px;
+  vertical-align:middle
 }
 
 .social {
@@ -177,8 +137,6 @@ footer {
   text-align: center;
   width:auto;
 }
-
-
 
 @media only screen and (max-width:720px) {
 .navbar {
