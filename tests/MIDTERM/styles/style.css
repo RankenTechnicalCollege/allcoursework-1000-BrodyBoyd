@@ -22,8 +22,9 @@ header {
 }
 
 .charity-logo {
-  width: 25%;
+  width: 10em;
 justify-content: center;
+flex-shrink: 1;
 }
 
 header h1 {
@@ -50,6 +51,7 @@ header h1 {
 
 .donate-button a {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 /* Navbar */
@@ -87,9 +89,10 @@ header h1 {
 .jumbotron {
   width: 100%;
   height: 50vh;
-  background-image: url(#) ;
-  background-size: 100%;
-  background-color: green;
+  background-image: url("images/ct_care_bags.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   text-align: center;
   font-size:2em ;
@@ -163,4 +166,12 @@ footer {
 .right {
   text-align: center;
   width:auto;
+}
+
+@media only screen and (max-width:720px) {
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
 }
