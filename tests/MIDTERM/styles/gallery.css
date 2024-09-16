@@ -147,7 +147,7 @@ div.desc {
   justify-content: center;
 }
 
-h1 {
+.dotted {
   font-size: 4em;
   text-align: center;
   text-decoration: underline dotted black;
