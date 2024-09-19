@@ -114,6 +114,17 @@ footer {
   width:auto;
 }
 
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+  border: solid black;
+}
+
+.dono-reasons {
+  width: 40%;
+}
 
 
 @media only screen and (max-width:720px) {
