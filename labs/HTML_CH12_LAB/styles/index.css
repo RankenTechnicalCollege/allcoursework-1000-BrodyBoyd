@@ -1,0 +1,46 @@
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  font-size: 2em;
+  background-color: black;
+  color: white;
+}
+
+.nav-link, .navbar-brand {
+  color: white;
+}
+.nav-link:hover, .navbar-brand:hover {
+  color: #ffefa8;
+}
+
+
+.background, h1 {
+  display: flex;
+  background-image: url(background.jpg);
+  width: 100%;
+  height: 830px;
+  background-size: 100%;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 3px 3px 5px #000000;
+  font-size: 2em;
+  background-repeat: no-repeat;
+  background-color: black;
+  text-decoration: underline;
+  text-decoration-thickness: auto;
+}
+
+h1{
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 2em;
+  opacity: 1;
+  font-weight: bold;
+}
