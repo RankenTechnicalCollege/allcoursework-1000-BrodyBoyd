@@ -1,0 +1,26 @@
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rancho-regular {
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+nav {
+  font-size: 2em;
+  background-color: black;
+  color: white;
+}
+
+.nav-link, .navbar-brand {
+  color: white;
+}
+.nav-link:hover, .navbar-brand:hover {
+  color: #ffefa8;
+}
+body {
+  background-color: rgb(238, 211, 175);
+}
