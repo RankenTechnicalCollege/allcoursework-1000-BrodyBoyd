@@ -61,6 +61,7 @@ main {
   width: 500px;
   position: relative;
   border: black solid .1em;
+  height: 250px;
 }
 
 .work {
