@@ -21,7 +21,13 @@ nav {
 .nav-link:hover, .navbar-brand:hover {
   color: #ffefa8;
 }
- 
+ul {
+  list-style: none;
+}
+li {
+  padding-left: 1em;
+}
+
 body {
   background-color: rgb(238, 211, 175);
 }

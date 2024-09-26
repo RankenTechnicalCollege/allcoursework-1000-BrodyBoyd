@@ -1,0 +1,99 @@
+body {
+  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(122, 122, 122));
+}
+
+div {
+  margin: auto;
+  width: 80%;
+}
+div > header{
+  margin: auto;
+  width: 25%;
+  border: 3px solid green;
+  padding: 10px;
+  border-style: double;
+  border-radius: 10px 20px 0 20px;
+  box-shadow: 3px 3px 4px 4px red;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  border-bottom: 4px dashed gray;
+}
+
+header {
+  background-image: linear-gradient(to bottom right, rgb(172, 225, 255), rgb(45, 255, 140));
+}
+
+p {
+  height: fit-content;
+  width: 340px;
+  text-align: center;
+  padding-left: 38.6%;
+}
+
+ol {
+  padding: .05cm .90cm;
+  margin: 1cm 2cm;
+  font-size: larger;
+}
+
+h3 {
+  padding: 1cm 1cm;
+  margin-bottom: 0%;
+  text-align: center;
+}
+
+h4 {
+  padding: auto;
+  font-size: x-large;
+}
+
+.center {
+  text-align: center;
+}
+
+img {
+  float: none;
+  padding: 2px;
+  margin: auto;
+}
+
+h2 {
+  border-top: 6px solid black;
+  font-size: xx-large;
+}
+
+a:hover {
+ color: red;
+ margin: auto;
+}
+
+a {
+  padding: 1%;
+}

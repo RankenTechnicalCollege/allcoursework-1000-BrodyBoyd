@@ -1,0 +1,47 @@
+.jumbotron {
+  width: 100%;
+  background-image: url(k-outside.jpg) ;
+  background-size: 100%;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 2em;
+  background-repeat: no-repeat;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.menu {
+  background-color: beige;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+.product-name {
+  font-size: larger;
+  font-weight: bold;
+}
+
+ul {
+  list-style:none;
+}
+
+#product-1 {
+  background-color: white;
+}
+
+#product-2 {
+  background-color:rgb(224, 224, 224) ;
+}
+
+#product-3 {
+  background-color: rgb(175, 175, 175);
+}
+
+#product-4 {
+  background-color: rgb(150, 150, 150);
+}
+
+#product-5 {
+  background-color: rgb(105, 105, 105);
+  color: rgb(0, 0, 0);
+}

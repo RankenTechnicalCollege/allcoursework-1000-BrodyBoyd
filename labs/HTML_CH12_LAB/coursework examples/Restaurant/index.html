@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-collapse-sm bg-body-tertiary navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Knuckles Bar & Grill</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.knucklespizza.com/_files/ugd/67e2c7_e46e693616ff4dacacd9a7cba071e9b9.pdf" target="_blank">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://maps.app.goo.gl/AaiHQ5A1yRfRnEEAA" target="_blank">Our Location</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="jumbotron container-fluid bg-primary text-white rounded pb-2">
+      <img src="knuckles.png" alt="knuckles logo" width="15%">
+        <h1 class="fs-lg-1 fs-md-3">Knuckles Pizza</h1> 
+        <p>Quad-City Style Pizza</p> 
+        <div class="phone fs-lg-1 fs-md-6">
+          <p>Call us at<a href="tel:+13092435900"> 309-243-5900</a></p>
+        </div>
+        <div class="address fs-lg-1 fs-md-6">
+          <a href="geo:40.834460,-89.618960">Come Find us!</a>
+      </div>
+    </div>
+  </main>
+
+  <div class="container menu pt-2">
+    <h2>Some of our most popular items!</h2>
+    <ul class="menuitems row">
+      <li class="product card col-lg-3 col-sm-6" id="product-1">
+        <img class="card-img-top" src="wings.jpg" alt="wings" width="200px">
+        <div class="product-name card-title">Knuckles Wings</div>
+        <div class="product-description card-body card-text">
+          6 or 12 wings tossed in your choice of Salt & Pepper Rub, Garlic Parmesan sauce, Sweet BBQ sauce, Spice
+          BBQ, Buffalo sauce, Jalapeno Sriracha, or Honey Sriracha
+        </div>
+        <div class="product-price">$12/18</div>
+      </li>
+      <li class="product card col-lg-3 col-sm-6" id="product-2">
+        <img class="card-img-top" src="field.jpg" alt="field pizza" width="200px">
+        <div class="product-name card-title">The Field</div>
+        <div class="product-description card-body card-text">
+          Fresh mushrooms, green peppers, chopped onion,
+          green & black olives, diced tomatoes, Knuckles
+          sauce, mozzarella on a 12"/16" crust.
+        </div>
+        <div class="product-price">$12 Keto Bowl/$15 GF / $17 12" / $26 16"</div>
+      </li>
+      <li class="product card col-lg-3 col-sm-6" id="product-3">
+        <img class="card-img-top" src="desert.jpg" alt="desert pizza" width="200px">
+        <div class="product-name card-title">Desert Pizza</div>
+        <div class="product-description card-body card-text">
+       12" Pizza with covered with butter and stroodle, topped with icing.
+        </div>
+        <div class="product-price">$15</div>
+      </li>
+      <li class="product card col-lg-3 col-sm-6" id="product-4">
+        <img class="card-img-top" src="knots.jpg" alt="garlic knots" width="200px">
+        <div class="product-name card-title">Knuckle Knots</div>
+        <div class="product-description card-body card-text">
+          Hand-knotted breadsticks (6 piece or 12
+          piece), brushed with savory garlic butter
+          and grated parmesan, served with your
+          choice of dipping sauce
+        </div>
+        <div class="product-price">$8/12</div>
+      </li>
+      <li class="product card col-lg-3 col-sm-6" id="product-5">
+        <img class="card-img-top" src="knucklehead.jpg" alt="knucklehead pizza" width="200px">
+        <div class="product-name card-title">The Knucklehead</div>
+        <div class="product-description card-body card-text">Housemade sausage, fresh mushrooms, chopped
+          onion, green peppers, Knuckles sauce, mozzarella</div>
+        <div class="product-price">$12 Keto Bowl/$17 GF / $19 12" / $28 16"</div>
+      </li>
+    </ul>
+    <h3><a href="https://www.knucklespizza.com/_files/ugd/67e2c7_e46e693616ff4dacacd9a7cba071e9b9.pdf" target="_blank">Check out the rest of our menu!</a></h3>
+  </div>
+
+  <div class="map bg-secondary text-primary d-flex justify-content-center">
+    <h2 class="px-5">Where to find us</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.868674588975!2d-89.62208367154506!3d40.834383628133075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880a44871e826993%3A0x291a8af311cbf53e!2sKnuckles%20Pizza%20%26%20Sports%20Bar!5e0!3m2!1sen!2sus!4v1726062352399!5m2!1sen!2sus"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+
+  <div class="footer bg-dark text-white p-15 d-flex justify-content-center">
+    <p class=" p-15">&copy; 2024 Knuckles Bar and Grill</p>
+  </div>
+</body>
+</html>
