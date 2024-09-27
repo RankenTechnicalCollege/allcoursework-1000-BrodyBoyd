@@ -24,7 +24,12 @@ nav {
   background-color: black;
   color: white;
 }
-
+.pa {
+  width: 100px;
+}
+.pz {
+  width: 66px;
+}
 .nav-link, .navbar-brand {
   color: white;
 }
