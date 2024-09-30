@@ -1,0 +1,41 @@
+/*JUMBOTRON*/
+
+.jumbo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(emb3.jpg);
+  background-size: 100%;
+  background-attachment: fixed ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  height: 76vh;
+}
+
+.jumbotext {
+  font-size: 4.5em;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.jumbotext2 {
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.contact {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+/*SECTIONS*/
+.section1, .section2, .section3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: solid black .05em;
+}
