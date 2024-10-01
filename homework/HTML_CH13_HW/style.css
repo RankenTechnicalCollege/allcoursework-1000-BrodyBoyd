@@ -1,0 +1,21 @@
+label, legend {
+  font-weight: bold;
+
+}
+
+body {
+  font-family: cursive;
+  
+}
+
+textarea {
+  width: 60ch;
+}
+
+fieldset {
+  background-color: beige;
+}
+
+input {
+  background-color: beige;
+}

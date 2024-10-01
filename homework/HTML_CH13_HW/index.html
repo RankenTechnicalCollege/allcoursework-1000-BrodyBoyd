@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Survey</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Music Survey</h1>
+
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+      <fieldset>
+        <legend>Select Your Favorite Types of Music</legend>
+        <input type="checkbox" id="music1" name="music1" value="Pop" />
+        <label for="music1">Pop</label><br />
+        <input type="checkbox" id="music2" name="music2" value="Classical" />
+        <label for="music2">Classical</label><br />
+        <input type="checkbox" id="music3" name="music3" value="Rock" />
+        <label for="music3">Rock</label><br>
+        <input type="checkbox" id="music4" name="music4" value="Folk" />
+        <label for="music4">Folk</label><br />
+        <input type="checkbox" id="music5" name="music5" value="Rap" />
+        <label for="music5">Rap</label><br />
+        <input type="checkbox" id="music6" name="music6" value="Other" />
+        <label for="music6">Other</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Select how often you purchase Music CDs:</legend>
+        <input type="radio" id="weekly" name="cd-purchase" value="Weekly">
+        <label for="weekly">Weekly</label><br>
+        <input type="radio" id="few" name="cd-purchase" value="Few">
+        <label for="few">A few CDs each year</label><br> 
+        <input type="radio" id="monthly" name="cd-purchase" value="Monthly">
+        <label for="monthly">Monthly</label><br>
+        <input type="radio" id="never" name="cd-purchase" value="Never">
+        <label for="never">Never</label><br>
+      </fieldset>
+
+      <label for="lang">Who's your Favorite from this List?</label><br>
+      <select name="artist" id="lang" size="3">
+        <option value="eminem">Eminem</option>
+        <option value="kanye">Kanye</option>
+        <option value="pinkfloyd">Pink Floyd</option>
+        <option value="queen">Queen</option>
+      </select>
+      <br>
+      <label for="role">What role does music play in your life?</label>
+      <textarea id="role" rows="3"></textarea><br>
+
+      <input type="submit" id="submit" value="Submit">
+      <input type="reset" id="resetform" value="reset">
+    </form>
+
+    <p>Brody Boyd</p>
+    <p>Brody_Boyd@insideranken.org</p>
+  </body>
+</html>
