@@ -27,21 +27,6 @@
     </div>
     <button type="submit" id="btnClick" class="btn btn-primary">Submit</button>
 </form>
-  <script>
-    document.getElementById('btnClick').onclick = () => {
-      event.preventDefault();
-      var burger = document.getElementById('burger').value;
-      var fries = document.getElementById('fries').value;
-      var soda = document.getElementById('soda').value;
-    
-      var price = parseFloat((burger*1)+(fries*2)+(soda*2.5))
-
-    const html = `<p><label>Burgers: </label>${burger}</p>
-      <p><label>Fries: </label>${fries}</p>
-      <p><label>Sodas: </label>${soda}</p>
-      <p>and you are paying a total price of: $${price}`;
-            document.write(html);
-          };
-  </script>
+  <script src="avg.js"></script>
 </body>
 </html>
