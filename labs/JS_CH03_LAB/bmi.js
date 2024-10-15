@@ -1,9 +1,8 @@
-
+const calcBmi = () => {
 let weight = parseInt(document.getElementById('weight').value)
 let height = parseInt(document.getElementById('height').value)
 
-let bmi = parseFloat(calcBMI(weight * 703 / height^2)) 
+let bmi = parseFloat((weight * 703) / (height*height)); 
 
-function myFunction() {
-  document.getElementById("bmi").value = bmi;
+  document.getElementById("bmi").innerText = bmi;
 }
