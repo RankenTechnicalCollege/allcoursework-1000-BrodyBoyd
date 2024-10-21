@@ -1,0 +1,202 @@
+* {
+  padding: .34em;
+  margin: auto;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  background-color: lightblue;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border: solid black;
+}
+
+.charity-logo {
+  width: 12em;
+justify-content: center;
+flex-shrink: 1;
+}
+
+header h1 {
+  font-size: 2.5em;
+  text-align: flex-end;
+  padding-top: .5em;
+}
+
+.donate-button {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1.4em;
+  background-color: rgb(0, 14, 209);
+  margin-top: 2em;
+  border-style: double;
+  border-radius: 10px 20px 20px 20px;
+  text-align: center;
+  margin-bottom: 3%;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.donate-button a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(0, 14, 209);
+  padding: 0;
+  align-items: stretch;
+  list-style-type: none;
+  margin: 0;
+  position: fill;
+  font-size: 1.5em;
+  border: .1em solid black;
+}
+
+.navbar-link {
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+  align-items: stretch;
+  padding: .5em;
+  background-color: rgb(0, 14, 209);
+  color: white;
+}
+
+.navbar-link:hover, .navbar-link:focus {
+  background-color: rgb(94, 131, 255);
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 15px auto;
+}
+
+.signup {
+  display: flex;
+  flex-direction: row;
+  border: black .2em solid;
+  background-color: white;
+}
+.main {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 2em;text-decoration: underline navy;
+  border: solid black .1em;
+  background-color: white;
+}
+
+.phonepic {
+  width: 25px;
+  vertical-align:middle
+}
+
+.emailpic {
+  width: 25px;
+  vertical-align:middle
+}
+
+.location {
+  width: 25px;
+  vertical-align:middle
+}
+
+.social {
+  width: 100px;
+  flex-shrink: 1;
+}
+
+footer {
+  display: flex
+}
+
+.footer {
+  background-color: gray;
+  border: solid black;
+}
+.middle {
+  justify-content: center;
+  text-align: center;
+}
+
+.ranken {
+  width: 30px;
+}
+
+.right {
+  text-align: center;
+  width:auto;
+}
+
+.projects {
+  text-align: center;
+  padding-top: 3em;
+  font-size: 1.5em;
+  padding-bottom: 3em;
+  border: solid black;
+  background-color: white;
+}
+
+.projects p {
+  width: 50%;
+}
+
+
+.social {
+  width: 100px;
+  flex-shrink: 1;
+}
+
+footer {
+  display: flex
+}
+
+.footer {
+  background-color: gray;
+  border: solid black;
+}
+.middle {
+  justify-content: center;
+  text-align: center;
+}
+
+.ranken {
+  width: 30px;
+}
+
+.right {
+  text-align: center;
+  width:auto;
+}
+
+@media only screen and (max-width:1300px) {
+  .signup {
+    flex-direction: column;
+  }
+
+  iframe {
+    width: 300;
+    height: 400;
+  }
+}
