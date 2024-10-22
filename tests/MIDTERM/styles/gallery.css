@@ -24,6 +24,10 @@ header {
   border: solid black;
 }
 
+.main {
+  background-color: white;
+  border: black solid .2em;
+}
 .charity-logo {
   width: 12em;
 justify-content: center;
