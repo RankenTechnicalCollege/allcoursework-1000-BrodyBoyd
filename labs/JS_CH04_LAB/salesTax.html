@@ -10,31 +10,36 @@
 </head>
 <body>
   <main>
+    <div class="d-flex flex-column  justify-content-center align-items-center">
     <h1>Sales Tax Calculator</h1>
     <p>Enter subtotal and tax rate and click "Calculate"</p>
     <form>
       <div>
         <label for="subtotal">Subtotal:</label>
-        <input type="text" id="subtotal">
+        <input type="text" id="subtotal" class="form-control">
       </div>
   
       <div>
         <label for="rate">Tax Rate:</label>
-        <input type="text" id="rate">
+        <input type="text" id="rate" class="form-control">
       </div>
   
       <div>
         <label for="sales_tax">Sales Tax:</label>
-        <output type="text" id="sales_tax"></output>
+        <output type="text" for="sales_tax" id="sales_tax" class="form-control">0</output>
       </div>
   
       <div>
         <label for="total">Total:</label>
-        <output type="text" id="total"></output>
+        <output type="text" for="total" id="total" class="form-control" >0</output>
       </div>
 
-      <button type="submit" id="calculate" value="Submit"> Submit</button>
+      <button type="button" id="calculate" value="Submit"> Submit</button>
+      <button type="reset" onclick="clear()">Clear</button>
+      <button type="submit" hidden></button>
     </form>
+    </div>
   </main>
+  <script src="salesTax.js"></script>
 </body>
 </html>
