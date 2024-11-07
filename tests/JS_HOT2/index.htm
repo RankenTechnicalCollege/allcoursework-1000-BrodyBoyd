@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+      JavaScript
+
+      Author: Brody Boyd
+      Date:   November 7th, 2024
+
+      Filename: index.htm
+   -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Hands-on Project 7-3</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="modernizr.custom.05819.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Hands-on Test Chapter 4</h1>
+      <p id="date"></p>
+    </header>
+
+    <article>
+      <h2>Steam Game Sale</h2>
+      <form id="myForm">
+        <input type="checkbox" id="item1" value="1999" />
+        <label for="item1">Counter Strike ($19.99)</label>
+        <input type="checkbox" id="item2" value="2999" />
+        <label for="item2">Dark Souls III ($29.99)</label>
+        <input type="checkbox" id="item3" value="1349" />
+        <label for="item3">Enter The Gungeon ($13.49)</label>
+        <input type="checkbox" id="item4" value="499" />
+        <label for="item4">Hover Junkers ($4.99)</label>
+        <input type="checkbox" id="item5" value="899" />  <!-- changed value from 599 to 899-->
+        <label for="item5">Good Robot ($8.99)</label>
+        <input type="button" value="Calculate" id="sButton" />
+      </form>
+      <table>
+        <colgroup>
+          <col class="label" />
+          <col class="amount" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>Item total</td>
+            <td>0.00</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>0.00</td>
+          </tr>
+          <tr>
+            <td>Total with tax</td>
+            <td>$0.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    <script>
+      'use strict';
+      // function to add values of selected check boxes and display total
+
+      document.addEventListener('DOMContentLoaded', function () {
+        var today = new Date();
+        var date = today.toDateString();
+        document.getElementById('date').innerHTML = date;
+      });
+
+      function calcTotal() {
+        const $ = (selector) => document.querySelector(selector);
+
+        var itemTotal = 0;
+        var tax = 0;
+        var totalWithTax = 0;
+        let items = document.getElementsByTagName('input'); //added let before items
+        var cells = document.getElementsByTagName('td');
+        for (var i = 0; i < 5; i++) {
+          //changed "i < 3" to "i <= 5" because there are 5 total selections to choose from
+          if (items[i].checked) {
+            itemTotal += items[i].value * 1;
+          }
+        }
+        tax = itemTotal * 0.05; //changed it from .1 to .05 to represent a 5% tax
+        totalWithTax = itemTotal + tax; //switched taxTotal to just tax
+        cells[1].innerHTML = (itemTotal / 100).toFixed(2);
+        cells[3].innerHTML = (tax / 100).toFixed(2);
+        cells[5].innerHTML = '$' + (totalWithTax / 100).toFixed(2);
+
+        const selection = window.getSelection();
+        if (selection) {
+          selection.removeAllRanges();
+        }
+        document.getElementById("myForm").reset();  //Added this to reset the form after its calculated
+      }
+
+      // add event listener to Submit button
+      let submitButton = document.getElementById('sButton');
+      submitButton.addEventListener('click', calcTotal); //Added " to the end of Click
+
+      
+    </script>
+  </body>
+</html>
