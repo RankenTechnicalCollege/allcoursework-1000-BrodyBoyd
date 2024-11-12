@@ -12,3 +12,11 @@ btnElList.forEach(btnEl => {
     }
   });
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  var today = new Date();
+  var date = today.toDateString();
+  document.getElementById('date').innerHTML = date;
+});
+

@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pickem</title>
     <link rel="stylesheet" href="pickem.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   </head>
   <body>
     <h1>NFL 2024 Pick-em</h1>
+    <h1>Week 11</h1>
+    <p>Todays date</p>
+    <p id="date"></p>
     <div class="all">
       <div class="game">
+        <img src="images/commanders.png" alt="commanders logo">
         <button type="button" class="btn">Commanders</button>
         <div class="gametime">
           <p>Thursday</p>
@@ -17,8 +23,10 @@
           <p>7:15 PM</p>
         </div>
         <button class="btn">Eagles</button>
+        <img src="images/eagles.png" alt="eagles logo">
       </div>
       <div class="game">
+        <img src="images/packers.png" alt="Packers logo">
         <button class="btn">Packers</button>
         <div class="gametime">
           <p>Sunday</p>
@@ -26,8 +34,10 @@
           <p>12 PM</p>
         </div>
         <button class="btn">Bears</button>
+        <img src="images/bears.png" alt="bears logo">
       </div>
       <div class="game">
+        <img src="images/jaguars.png" alt="jaguars logo">
         <button class="btn">Jaguars</button>
         <div class="gametime">
           <p>Sunday</p>
@@ -35,8 +45,10 @@
           <p>12 PM</p>
         </div>
         <button class="btn">Lions</button>
+        <img src="images/lions.png" alt="lions logo">
       </div>
       <div class="game">
+        <img src="images/vikings.png" alt="vikings logo">
         <button class="btn">Vikings</button>
         <div class="gametime">
           <p>Sunday</p>
@@ -44,8 +56,10 @@
           <p>12 PM</p>
         </div>
         <button class="btn">Titans</button>
+        <img src="images/titans.png" alt="titans logo">
       </div>
       <div class="game">
+        <img src="images/raiders.png" alt="raiders logo">
         <button class="btn">Raiders</button>
         <div class="gametime">
           <p>Sunday</p>
@@ -53,8 +67,10 @@
           <p>12 PM</p>
         </div>
         <button class="btn">Dolphins</button>
+        <img src="images/dolphins.png" alt="dolphins logo">
       </div>
       <div class="game">
+        <img src="images/rams.png" alt="rams logo">
         <button class="btn">Rams</button>
         <div class="gametime">
           <p>Sunday</p>
@@ -62,8 +78,10 @@
           <p>12 PM</p>
         </div>
         <button class="btn">Patriots</button>
+        <img src="images/pats.png" alt="pats logo">
       </div>
       <div class="game">
+        <img src="images/browns.png" alt="browns logo">
         <button class="btn">Browns</button>
         <div class="gametime">
           <p>Sunday</p>
@@ -71,8 +89,10 @@
           <p>12 PM</p>
         </div>
         <button class="btn">Saints</button>
+        <img src="images/saints.png" alt="saints logo">
       </div>
       <div class="game">
+        <img src="images/colts.png" alt="colts logo">
         <button class="btn">Colts</button>
         <div class="gametime">
           <p>Sunday</p>
@@ -80,8 +100,10 @@
           <p>12 PM</p>
         </div>
         <button class="btn">Jets</button>
+        <img src="images/jets.png" alt="jets logo">
       </div>
       <div class="game">
+        <img src="images/ravens.png" alt="ravens logo">
         <button class="btn">Ravens</button>
         <div class="gametime">
           <p>Sunday</p>
@@ -89,6 +111,62 @@
           <p>12 PM</p>
         </div>
         <button class="btn">Steelers</button>
+        <img src="images/steelers.png" alt="steelers logo">
+      </div>
+      <div class="game">
+        <img src="images/falcons.png" alt="falcons logo">
+        <button class="btn">Falcons</button>
+        <div class="gametime">
+          <p>Sunday</p>
+          <p>Nov. 17</p>
+          <p>3:05 PM</p>
+        </div>
+        <button class="btn">Broncos</button>
+        <img src="images/broncos.png" alt="broncos logo">
+      </div>
+      <div class="game">
+        <img src="images/seahawks.png" alt="seahawks logo">
+        <button class="btn">Seahawks</button>
+        <div class="gametime">
+          <p>Sunday</p>
+          <p>Nov. 17</p>
+          <p>3:05 PM</p>
+        </div>
+        <button class="btn">49ers</button>
+        <img src="images/49ers.png" alt="49ers logo">
+      </div>
+      <div class="game">
+        <img src="images/chiefs.png" alt="chiefs logo">
+        <button class="btn">Chiefs</button>
+        <div class="gametime">
+          <p>Sunday</p>
+          <p>Nov. 17</p>
+          <p>3:25 PM</p>
+        </div>
+        <button class="btn">Bills</button>
+        <img src="images/bills.png" alt="bills logo">
+      </div>
+      <div class="game">
+        <img src="images/bengals.png" alt="bengals logo">
+        <button class="btn">Bengals</button>
+        <div class="gametime">
+          <p>Sunday</p>
+          <p>Nov. 17</p>
+          <p>7:20 PM</p>
+        </div>
+        <button class="btn">Chargers</button>
+        <img src="images/chargers.png" alt="chargers logo">
+      </div>
+      <div class="game">
+        <img src="images/texans.png" alt="texans logo">
+        <button class="btn">Texans</button>
+        <div class="gametime">
+          <p>Monday</p>
+          <p>Nov. 17</p>
+          <p>7:15 PM</p>
+        </div>
+        <button class="btn">Cowboys</button>
+        <img src="images/cowboys.png" alt="cowboys logo">
       </div>
     </div>
     <script src="pickem.js"></script>
