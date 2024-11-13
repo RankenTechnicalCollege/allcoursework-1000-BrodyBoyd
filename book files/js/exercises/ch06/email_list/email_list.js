@@ -13,19 +13,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // check user entries - add text to error message if invalid
         if (email1.value == "") { 
-            errorMessage += "First email is required.\n";
+            $("#email_1_error").value = "First email is required.\n";
         }
     
         if (email2.value == "") { 
-            errorMessage += "Second email is required.\n";
+            $("#email_2_error").value = "Second email is required.\n";
         }
     
         if (email1.value != email2.value) { 
-            errorMessage += "Both emails must match.\n";
+            $("#email_2_error").value = "Both emails must match.\n";
         }
     
         if (firstName.value == "") {
-            errorMessage += "First name is required.\n";
+            $("#f_name").value = "First name is required.\n";
         }
     
         // submit the form if error message is an empty string
