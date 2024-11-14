@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Convert Temperatures</h1>
+    <br />
+    <input type="radio" name="Type" id="fahrenheit" checked>Fahrenheit to Celsius <br>
+    <input type="radio" name="Type" id="celsius">Celsius to Fahrenheit<br>
+    <br>
+
+    <label for="degrees" id="entry">Enter F degrees:</label>
+    <input type="text" id="degree_entry" name="degrees"><br>
+
+    <label for="output" id="output">Degrees Celsius:</label>
+    <input type="text" id="output_degree" name="output" disabled><br>
+
+    <label>&nbsp;</label>
+    <input type="button" id="calculate" value="Calculate">
+    <p id="error"></p>
+    <script src="temp.js"></script>
+  </body>
+</html>
