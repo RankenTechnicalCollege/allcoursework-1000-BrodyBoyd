@@ -47,13 +47,13 @@ const results = () => {
 };
 
 const allScores = () => {
+  $('#allScores').innerHTML = "";
   for(var i = 0; i < scores.length; i++) {
-    document.write = names[i] + ", " + scores[i];
+    $('#allScores').innerHTML += names[i] + ", " + scores[i];
+    $('#allScores').innerHTML += '<br>';
 }
-}
+};
 
-console.log(names);
-console.log(scores);
 document.addEventListener('DOMContentLoaded', () => {
   $('#add').addEventListener('click', add);
   $('#results').addEventListener('click', results);
