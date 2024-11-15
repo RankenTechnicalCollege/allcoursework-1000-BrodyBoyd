@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Scores</title>
+  </head>
+  <body>
+    <main>
+      <h1>Use a Test Score array</h1>
+
+      <form id="score_form" name="score" method="get">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+          <span id="name_error">*</span>
+        </div>
+
+        <div>
+          <label for="score">Score:</label>
+          <input type="text" id="score" name="score" />
+          <span id="score_error">*</span>
+        </div>
+        <br>
+        <button type="button" id="add" value="Add to Array">Add to Array</button>
+        <button type="button" id="results" value="Display Results">Display Results</button>
+        <button type="button" id="scores" value="Display Scores">Display Scores</button>
+      </form>
+      <br>
+      <h2>Results</h2>
+      <p>Average Score = <span id="avg"></span></P>
+      <p>High Score = <span id="top_scorer">____</span> with a score of <span id="top_score">____</span></p>
+      <br>
+      <h2>Scores</h2>
+      <p id="allScores"></p>
+      <br>
+    </main>
+    <script src="scores.js"></script>
+  </body>
+</html>
