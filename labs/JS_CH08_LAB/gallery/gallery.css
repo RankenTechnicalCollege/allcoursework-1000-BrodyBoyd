@@ -5,3 +5,16 @@ a:hover {
 #clicked {
   color: red;
 }
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.items {
+  background-color: wheat;
+  padding: 2em;
+  font-size: 2em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

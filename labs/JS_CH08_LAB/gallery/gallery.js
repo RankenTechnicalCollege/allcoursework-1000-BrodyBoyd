@@ -1,7 +1,6 @@
 "use strict";
 
-$(document).ready(() => {
-
+$(() => { /* dom loaded */ });
   $("#image_list a").each( (index, link) => {
     const image = new Image();
     image.src = link.href;
@@ -16,4 +15,10 @@ $(document).ready(() => {
     evt.preventDefault();
   });
 $("li:first-child a").focus();
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'ArrowUp') {
+    tabindex += 1;
+    console.log('Up arrow pressed');
+  }
 });
