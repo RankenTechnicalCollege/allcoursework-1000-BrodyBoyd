@@ -1,3 +1,5 @@
+import { useState } from 'react'
+import './App.css'
 import { useState } from 'react';
 
 function Square({ value, onSquareClick }) {
@@ -7,9 +9,7 @@ function Square({ value, onSquareClick }) {
     </button>
   );
 }
-// VERY IMPORTANT RIGHT HERE
-//THIS WORKED ON THE THING I WAS USING ON GOOGLE TO RUN THE CODE BUT I COULDNT GET IT HERE
-//THAT BEING SAID I WAS TRYING THE LIVE SERVER THING WRONG, BUT IF IT DOSENT WORK THAT WAY, I GOT IT TO WORK.
+
 function Board({ xIsNext, squares, onPlay }) {
   function handleClick(i) {
     if (calculateWinner(squares) || squares[i]) {
@@ -115,3 +115,5 @@ function calculateWinner(squares) {
   }
   return null;
 }
+
+export default App
