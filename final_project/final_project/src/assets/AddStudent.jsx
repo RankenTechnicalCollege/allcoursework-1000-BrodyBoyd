@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid'
 
 const AddStudent = (props) => {
   const [firstName, setFirstName] = useState('')
-  const [lastName, setLastname] = useState('')
+  const [lastName, setLastName] = useState('')
   const [email, setEmail] = useState('')
   const [gradYear, setGradYear] = useState('')
   const [selectedFile, setSelectedFile] = useState('')
@@ -14,10 +14,10 @@ const AddStudent = (props) => {
       'firstName': firstName,
       'lastName': lastName,
       'email': email,
-      'gradYear': gradYear,
+      'gradYear': parseInt(gradYear),
       'image': URL.createObjectURL(selectedFile)
     }
-    props.AddStudent(newStudent)
+    props.addStudent(newStudent)
   }
 
   const imageUpdate = (event) => {
@@ -31,7 +31,7 @@ const AddStudent = (props) => {
       </div>
       <div className='col-md-2'>
         <label htmlFor='txtLastName' className='form-label'>Last Name</label>
-        <input type='text' id='txtLastName' placeholder='Last Name' className='form-control' onChange={(event) => setLastname(event.currentTarget.value)} value={lastName}/>
+        <input type='text' id='txtLastName' placeholder='Last Name' className='form-control' onChange={(event) => setLastName(event.currentTarget.value)} value={lastName}/>
       </div>
       <div className='col-md-2'>
         <label htmlFor='txtEmail' className='form-label'>Email Address</label>
@@ -45,8 +45,8 @@ const AddStudent = (props) => {
         <label htmlFor='fileUpload' className='form-label'>Student Image</label>
         <input type='file' id='fileUpload' placeholder='Upload' className='form-control' onChange={imageUpdate}/>
       </div>
-      <div className='col-md-4'>
-        <button type='button' className='btn btn-success btn-lg' id='btnAdd' onClick={doWork} />
+      <div className='col-md-2'>
+        <button type='button' className='btn btn-success btn-lg' id='btnAdd' onClick={doWork}>Add Student</button>
       </div>
       
     </div>
