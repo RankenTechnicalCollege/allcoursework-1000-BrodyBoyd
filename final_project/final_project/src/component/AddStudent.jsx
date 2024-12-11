@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import { nanoid } from 'nanoid'
 
+const $ = selector => document.querySelector(selector); 
+
 const AddStudent = (props) => {
   const [firstName, setFirstName] = useState('')
   const [lastName, setLastName] = useState('')
