@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faFloppyDisk, faMagicWandSparkles, faPlusCircle, faWarning} from '@fortawesome/free-solid-svg-icons'
-
+import './AddRecord.css'
 
 const Record = (props) => {
   const [editMode, setEditMode] = useState(false);
@@ -24,7 +24,7 @@ const Record = (props) => {
   }
   return (
        <div className='card'>
-        <img src={props.record.image} alt='Our Student' className='card-image-top mx-auto'/>
+        <img src={props.record.image} alt='Our Record' className='card-image-top mx-auto w-100'/>
         { !editMode && <ul className='list-group list-group-flush'>
           <li className='list-group-item text-center'>{props.record.recordName}</li>
           <li className='list-group-item text-center'>{props.record.artist}</li>

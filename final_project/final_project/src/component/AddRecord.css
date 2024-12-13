@@ -1,13 +1,24 @@
 #addRecord {
   margin-top: 2em;
-  border-radius: 5%;
-  box-shadow: 5px 5px 5px 5px gray;
+  border-radius: 60%;
+  box-shadow: 5px 5px 5px 5px #5E239D;
   border: thin solid black;
   padding: 5em;
-  color: green;
+  background-color: #8B9EB7;
+  color: #F4D35E;
+  text-shadow:  1.5px 1.5px black;
 }
 
 li {
   color: blue;
 
+}
+
+.card {
+  background-color: black;
+}
+
+.list-group-item {
+  background-color: #FF82A9;
+  color: #1F271B;
 }
