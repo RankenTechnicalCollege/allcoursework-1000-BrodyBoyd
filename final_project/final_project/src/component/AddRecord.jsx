@@ -29,7 +29,7 @@ const AddRecord = (props) => {
     setSelectedFile(event.target.files[0])
   }
   return (
-    <div className='row' id='addRecord'>
+    <div className='row addRecords' id='addRecord'>
       <h3>Add Record</h3>
       <div className='col-md-2'>
         <label htmlFor='txtRecordName' className='form-label'>Album Name</label>

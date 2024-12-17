@@ -5,20 +5,24 @@
   border: thin solid black;
   padding: 5em;
   background-color: #8B9EB7;
-  color: #F4D35E;
+  color: #8B9EB7;
   text-shadow:  1.5px 1.5px black;
 }
 
 li {
   color: blue;
-
 }
 
+.addRecords {
+  background-image: url('addBackground.jpg');
+  background-size: cover;
+  background-position: center;
+}
 .card {
   background-color: black;
 }
 
 .list-group-item {
-  background-color: #FF82A9;
+  background-color: #8B9EB7;
   color: #1F271B;
 }

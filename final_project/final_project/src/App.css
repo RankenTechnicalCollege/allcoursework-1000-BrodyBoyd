@@ -5,6 +5,8 @@
   padding: 6em;
   color: #F4D35E;
   background-color: #8B9EB7;
+  background-image: url('mainBackground.jpg');
+
 }
 
 .title {
@@ -24,6 +26,8 @@
   background-color: #8B9EB7;
   color: #F4D35E;
   text-shadow:  1.5px 1.5px black;
+  background-image: url('searchBackground.png');
+  background-size: cover;
 }
 
 .container {
