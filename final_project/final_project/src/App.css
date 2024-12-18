@@ -4,8 +4,8 @@
   border: solid #16302B;
   padding: 6em;
   color: #F4D35E;
-  background-color: #8B9EB7;
-  background-image: url('mainBackground.jpg');
+  background-color: #FFB6C1;
+  background-image: url('./mainBackground.jpg');
 
 }
 
@@ -14,7 +14,7 @@
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding-top: 1.5em;
-  color: white;
+  color: black;
   font-size: 3.5em;
 }
 
@@ -26,7 +26,7 @@
   background-color: #8B9EB7;
   color: #F4D35E;
   text-shadow:  1.5px 1.5px black;
-  background-image: url('searchBackground.png');
+  background-image: url('./searchBackground.png');
   background-size: cover;
 }
 
@@ -34,6 +34,6 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body {
-  background-image: url('background.jpg');
+  background-image: url('./background.jpg');
 
 }
