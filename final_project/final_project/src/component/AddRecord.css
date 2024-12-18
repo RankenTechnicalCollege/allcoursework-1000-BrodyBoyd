@@ -1,3 +1,6 @@
+
+
+
 #addRecord {
   margin-top: 2em;
   border-radius: 60%;
@@ -14,7 +17,7 @@ li {
 }
 
 .addRecords {
-  background-image: url('addBackground.jpg');
+  background-image: url('./addBackground.jpg');
   background-size: cover;
   background-position: center;
 }
