@@ -1,23 +1,12 @@
-#allRecords {
-  border-radius: 24%;
-  box-shadow: 5px 5px 5px 5px #5E239D;
-  border: solid #16302B;
-  padding: 6em;
-  color: #F4D35E;
-  background-color: #FFB6C1;
-  background-image: url('./mainBackground.jpg');
-
-}
 
 .title {
   display: flex;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding-top: 1.5em;
-  color: black;
+  color: white;
   font-size: 3.5em;
 }
-
 #searchRecords {
 
   box-shadow: 5px 5px 5px 5px #5E239D;
@@ -26,14 +15,25 @@
   background-color: #8B9EB7;
   color: #F4D35E;
   text-shadow:  1.5px 1.5px black;
-  background-image: url('./searchBackground.png');
+  background-image: url('../searchBackground.jpg');
   background-size: cover;
 }
+#allRecords {
+  border-radius: 24%;
+  box-shadow: 5px 5px 5px 5px #5E239D;
+  border: solid #16302B;
+  padding: 6em;
+  color: #F4D35E;
+  background-color: #FFB6C1;
+  background-image: url('../mainBackground.png');
+
+}
+
 
 .container {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body {
-  background-image: url('./background.jpg');
+  background-image: url('../background.jpg');
 
 }

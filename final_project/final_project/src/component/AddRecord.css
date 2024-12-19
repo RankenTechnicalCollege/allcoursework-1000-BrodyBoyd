@@ -17,7 +17,7 @@ li {
 }
 
 .addRecords {
-  background-image: url('./addBackground.jpg');
+  background-image: url('../addBackground.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -29,3 +29,4 @@ li {
   background-color: #8B9EB7;
   color: #1F271B;
 }
+
